@@ -1,4 +1,12 @@
-(executable
- (public_name FPSE_Final_Project)
- (name main)
- (libraries FPSE_Final_Project))
+(library
+  (name ultimatettt)
+  (modules 
+    ultimatettt)
+  (libraries 
+    core
+))
+
+; (executable
+;   (public_name FPSE_Final_Project)
+;   (name main)
+;   (libraries FPSE_Final_Project))
