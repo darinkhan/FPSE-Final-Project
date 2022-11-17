@@ -18,7 +18,7 @@ The libraries we plan on using are within the requirements below; we plan on usi
 
 Additionally, the list of what order we will implement features is contained within `./ThePlan.md`.
 
-/You may also include any other information which will make it easier to understand your project.
+We plan on splitting up the project into two main portions: rendering the frontend/web portion, and the backend logic that runs this frontend portion. The two of us will each pick of these portions and work on it over the course of the project, but will also collaborate on key portions (such as communication between the backend and frontend, game logic, etc.).
 
 ## Package Requirements
 
