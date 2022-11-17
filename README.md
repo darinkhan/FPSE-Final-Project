@@ -10,7 +10,7 @@ __An overview of the purpose of the project__
 
 __Include a mock of a use of your application, along the lines of the Minesweeper example above but showing the complete protocol.__
 
-The commented module type(s) are currently under `FPSE_Final_Project/src/ultimatettt.mli`, with the rendering steps __HERE__.
+The commented module type(s) are currently under `FPSE_Final_Project/src/ultimatettt.mli`, with the rendering steps at the end of `./ThePlan.md`.
 
 The libraries we plan on using are within the requirements below; we plan on using Rescript, which is essentially OCaml with more bells and whistles to allow for frontend implmementation. We have verified that Rescript works for us, and a project shell exists under `FPSE_Final_Project/app/ultimate`, which we used with local tutorial examples.
 
