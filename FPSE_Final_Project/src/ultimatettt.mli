@@ -14,6 +14,8 @@ type square =
    *)
 type board = square list
 
+type ttt_board = board list
+
 (* Represents the current player in the game *)
 type player = 
   | X 
