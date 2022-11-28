@@ -1,7 +1,29 @@
 %%raw(`import './App.css';`)
 @module("./logo.svg") external logo: string = "default"
 
+open Button 
+
 @react.component
 let make = () => {
-  <div className="App"> {"Hello World!"->React.string} </div>
+  <div className="container">
+      <div className="game">
+        <div className="game-board">
+          <div className="board-row">
+            <Square value=Empty/>
+            <Square value=Empty/>
+            <Square value=Empty/>
+          </div>
+          <div className="board-row">
+            <Square value=Empty/>
+            <Square value=Empty/>
+            <Square value=Empty/>
+          </div>
+          <div className="board-row">
+            <Square value=Empty/>
+            <Square value=Empty/>
+            <Square value=Empty/>
+          </div>
+        </div>
+      </div>
+    </div>
 }

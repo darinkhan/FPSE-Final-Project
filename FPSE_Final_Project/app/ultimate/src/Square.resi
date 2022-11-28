@@ -4,3 +4,4 @@ type square =
 | X
 | O
 | Empty 
+
